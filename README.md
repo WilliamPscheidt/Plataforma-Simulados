@@ -18,9 +18,10 @@
 
 # 📡 Tecnologias Utilizadas                                                   
 <div id="tecnologias">Neste projeto foram utilizadas as tecnologias JavaScript, React e Node.JS, além de diversas outras bibliotecas para apoio. <br/>
-<img style="width: 32px; margin: 20px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png">
-<img style="width: 90px; margin: 20px;" src="https://www.fullstackpython.com/img/logos/react.png">
-<img style="width: 90px; margin: 20px;" src="https://miro.medium.com/max/1400/1*cqQsY4mgoBbzWgG_XCYSjg.png">
+<img style="width: 32px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png">
+<img style="width: 90px;" src="https://www.fullstackpython.com/img/logos/react.png">
+<img style="width: 90px;" src="https://miro.medium.com/max/1400/1*cqQsY4mgoBbzWgG_XCYSjg.png">
+<img style="width: 90px;" src="https://upload.wikimedia.org/wikipedia/labs/8/8e/Mysql_logo.png">
 </div>
 
 # 📡 Preview do Projeto
