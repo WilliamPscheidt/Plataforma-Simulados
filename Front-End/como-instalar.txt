@@ -1,0 +1,5 @@
+1) Acesse todos os arquivos e edite os campos de conexão ao Back-End. Para fazer esse passo é necessário que o Back-End já esteja em funcionamento, confira: https://github.com/WilliamPscheidt/Plataforma-Simulados/blob/main/Back-End/como-instalar.txt
+2) Acesse a pasta do Front-End com o Prompt de Comando ou Terminal e digite os comandos:
+- npm install
+- npm start
+4) Se tudo estiver correto, o front-end será inicializado.
