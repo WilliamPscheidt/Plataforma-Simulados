@@ -9,7 +9,7 @@
 # 📡 Responsáveis
 <div id="responsaveis">
 - Front-End - Auxilio no Back-End - Infraestrutura - UI/UX: William Pscheidt Polaski <br/>
-- Back-End - Infraestrutura - Gabriel Marques <br/>
+- Back-End - Infraestrutura - Gabriel Lucas Marques https://github.com/GabrieLucasM <br/>
 - Project Manager - Auxilio UI/UX - Rafael Gurkewitz - https://github.com/rafaelgurk<br/>
 <div> 
 
