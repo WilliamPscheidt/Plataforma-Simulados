@@ -25,7 +25,6 @@ Usuário:  <br/>
 - https://zyngo.com.br/provas (Precisa logar) <br/>
 - https://zyngo.com.br/perfil (Precisa logar) <br/>
 - https://zyngo.com.br/simulado (Precisa logar) <br/>
-
 Administrador: <br/>
 - https://zyngo.com.br/admin/simulados/ (Deve rodar o projeto localmente) <br/>
 - https://zyngo.com.br/admin/adicionarperguntas/ (Deve rodar o projeto localmente) <br/>
