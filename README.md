@@ -1,5 +1,5 @@
 # 🎒 Sobre o Projeto
-<div class="sobre">Esse projeto tem como objetivo criar um ambiente de estudo para alunos e auxiliar Professores/Instituições de Ensino a elaborar questões e provas de forma digital, interativa e gammificada.</div> 
+<div class="sobre">Esse projeto tem como objetivo criar um ambiente de estudo para alunos e auxiliar Professores/Instituições de Ensino a elaborar questões e provas de forma digital, interativa e gammificada. No exemplo de preview abaixo foi utilizado para uma plataforma de Bombeiros Voluntários no entanto pode ser utilizado para qualquer nicho de estudos!</div> 
 
 # 📡 Tecnologias Utilizadas                                                   
 <div>Neste projeto foram utilizadas as tecnologias JavaScript, React e Node.JS, além de diversas outras bibliotecas para apoio.</div>
