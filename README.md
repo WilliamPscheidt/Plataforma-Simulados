@@ -30,6 +30,19 @@ Estrutura do Preview -> AWS (EC2) em São Paulo.
 - V1: https://framer.com/projects/Telas-projeto-bombeiros-TADS--rVCQ6j51gDKsp2G38lqd-1t8Ye (Esboço)
 - V2: https://www.figma.com/proto/HAW7fXXkG1rvwFxne4T6tQ/Untitled?node-id=2%3A2 (Esboço)
 
+# 📡 Deploy:
+1) Baixe esse repositório (Back-End, Front-End e Banco de Dados).
+2) Crie um Banco de Dados MySQL e importe o arquivo .SQL da pasta "Banco de Dados".
+3) Acesse a pasta "Back-End" e modifique todos os arquivos para os dados do seu Banco de Dados (Host, Usuário, Senha e Porta) e também as senhas para tokenização, por default todos esses campos estão como "Edite".
+4) Acesse a pasta "Front-End" e modifique todos os arquivos para utilizar o link utilizado para hospedar o seu Back-End. Caso esteja realizando o deploy localmente ficará algo semelhante a "http://localhost:4000/.."
+5) Feito todas as alterações, acesse novamente a pasta "Back-End" com um Prompt de Comando ou Terminal e digite:
+- npm install
+- node index.js
+6) Acesse a pasta "Front-End" com um Prompt de Comando ou Terminal e digite:
+- npm install
+- npm start
+7) Se todos os passos estiverem corretos, a plataforma estará acessível em "localhost:3000" e sua api em "localhost:4000".
+
 # 📡 Responsáveis
 - Front-End - Auxilio no Back-End - Infraestrutura - UI/UX: William Pscheidt Polaski
 - Back-End - Infraestrutura - Gabriel Marques
