@@ -2,8 +2,8 @@
 - <a href="#sobre">Sobre o Projeto</a>
 - <a href="#tecnologias">Tecnologias Utilizadas</a>
 - <a href="#preview">Preview do Projeto</a>
-- Layouts (Fimga/Framer)
-- Deploy
+- <a href="#layouts">Layouts (Fimga/Framer)</a>
+- <a href="#deploy">Deploy</a>
 - <a href="#responsaveis">Responsáveis</a>
 
 # 🎒 Sobre o Projeto
@@ -34,10 +34,13 @@ Estrutura do Preview -> AWS (EC2) em São Paulo. <br/>
 </div>
 
 # 📡 Layouts (Figma/Framer):
+<div id="#layouts">
 - V1: https://framer.com/projects/Telas-projeto-bombeiros-TADS--rVCQ6j51gDKsp2G38lqd-1t8Ye (Esboço)
 - V2: https://www.figma.com/proto/HAW7fXXkG1rvwFxne4T6tQ/Untitled?node-id=2%3A2 (Esboço)
+</div>
 
 # 📡 Deploy:
+<div id="deploy">
 1) Baixe esse repositório (Back-End, Front-End e Banco de Dados).
 2) Crie um Banco de Dados MySQL e importe o arquivo .SQL da pasta "Banco de Dados".
 3) Acesse a pasta "Back-End" e modifique todos os arquivos para os dados do seu Banco de Dados (Host, Usuário, Senha e Porta) e também as senhas para tokenização, por default todos esses campos estão como "Edite".
@@ -49,7 +52,8 @@ Estrutura do Preview -> AWS (EC2) em São Paulo. <br/>
 - npm install
 - npm start
 7) Se todos os passos estiverem corretos, a plataforma estará acessível em "localhost:3000" e sua api em "localhost:4000".
-8) 
+</div>
+
 # 📡 Responsáveis
 <div id="responsaveis">
 - Front-End - Auxilio no Back-End - Infraestrutura - UI/UX: William Pscheidt Polaski
