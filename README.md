@@ -1,7 +1,7 @@
 # 🎒 O que você quer ver?
 - <a href="#sobre">Sobre o Projeto</a>
-- Tecnologias Utilizadas
-- Preview do Projeto
+- <a href="#tecnologias">Tecnologias Utilizadas</a>
+- <a href="#preview">Preview do Projeto</a>
 - Layouts (Fimga/Framer)
 - Deploy
 - <a href="#responsaveis">Responsáveis</a>
@@ -10,29 +10,29 @@
 <div id="sobre">Esse projeto tem como objetivo criar um ambiente de estudo para alunos e auxiliar Professores/Instituições de Ensino a elaborar questões e provas de forma digital, interativa e gammificada. No exemplo de preview abaixo foi utilizado para uma plataforma de Bombeiros Voluntários no entanto pode ser utilizado para qualquer nicho de estudos!</div> 
 
 # 📡 Tecnologias Utilizadas                                                   
-<div>Neste projeto foram utilizadas as tecnologias JavaScript, React e Node.JS, além de diversas outras bibliotecas para apoio.</div>
-<div>
+<div id="tecnologias">Neste projeto foram utilizadas as tecnologias JavaScript, React e Node.JS, além de diversas outras bibliotecas para apoio.
 <img style="width: 32px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png">
 <img style="width: 90px;" src="https://www.fullstackpython.com/img/logos/react.png">
 <img style="width: 90px;" src="https://miro.medium.com/max/1400/1*cqQsY4mgoBbzWgG_XCYSjg.png">
 </div>
 
 # 📡 Preview do Projeto
+<div id="#preview">
+Usuário:  <br/>
+- https://zyngo.com.br <br/>
+- https://zyngo.com.br/acesso  <br/>
+- https://zyngo.com.br/dashboard (Precisa logar) <br/>
+- https://zyngo.com.br/provas (Precisa logar) <br/>
+- https://zyngo.com.br/perfil (Precisa logar) <br/>
+- https://zyngo.com.br/simulado (Precisa logar) <br/>
 
-Usuário:
-- https://zyngo.com.br
-- https://zyngo.com.br/acesso 
-- https://zyngo.com.br/dashboard (Precisa logar)
-- https://zyngo.com.br/provas (Precisa logar)
-- https://zyngo.com.br/perfil (Precisa logar)
-- https://zyngo.com.br/simulado (Precisa logar)
+Administrador: <br/>
+- https://zyngo.com.br/admin/simulados/ (Deve rodar o projeto localmente) <br/>
+- https://zyngo.com.br/admin/adicionarperguntas/ (Deve rodar o projeto localmente) <br/>
+- https://zyngo.com.br/admin/gerenciarusuarios/ (Deve rodar o projeto localmente) <br/>
 
-Administrador:
-- https://zyngo.com.br/admin/simulados/ (Deve rodar o projeto localmente)
-- https://zyngo.com.br/admin/adicionarperguntas/ (Deve rodar o projeto localmente)
-- https://zyngo.com.br/admin/gerenciarusuarios/ (Deve rodar o projeto localmente)
-
-Estrutura do Preview -> AWS (EC2) em São Paulo.
+Estrutura do Preview -> AWS (EC2) em São Paulo. <br/>
+</div>
 
 # 📡 Layouts (Figma/Framer):
 - V1: https://framer.com/projects/Telas-projeto-bombeiros-TADS--rVCQ6j51gDKsp2G38lqd-1t8Ye (Esboço)
