@@ -25,3 +25,8 @@ Administrador:
 - https://zyngo.com.br/admin/gerenciarusuarios/ (Deve rodar o projeto localmente)
 
 Estrutura do Preview -> AWS (EC2) em São Paulo.
+
+# 📡 Responsáveis
+- Front-End - Auxilio no Back-End - Infraestrutura: William Pscheidt Polaski
+- Back-End - Infraestrutura - Gabriel Marques
+- Project Manager - Rafael Gurkewitz - https://github.com/rafaelgurk
