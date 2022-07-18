@@ -42,8 +42,8 @@ Estrutura do Preview -> AWS (EC2) em São Paulo. <br/>
 
 # 📡 Layouts (Figma/Framer):
 <div id="layouts">
-- V1: https://framer.com/projects/Telas-projeto-bombeiros-TADS--rVCQ6j51gDKsp2G38lqd-1t8Ye (Esboço)
-- V2: https://www.figma.com/proto/HAW7fXXkG1rvwFxne4T6tQ/Untitled?node-id=2%3A2 (Esboço)
+- V1: https://framer.com/projects/Telas-projeto-bombeiros-TADS--rVCQ6j51gDKsp2G38lqd-1t8Ye (Esboço) <br />
+- V2: https://www.figma.com/proto/HAW7fXXkG1rvwFxne4T6tQ/Untitled?node-id=2%3A2 (Esboço) <br />
 </div>
 
 # 📡 Deploy:
