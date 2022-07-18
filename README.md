@@ -2,7 +2,7 @@
 - <a href="#sobre">Sobre o Projeto</a>
 - <a href="#tecnologias">Tecnologias Utilizadas</a>
 - <a href="#preview">Preview do Projeto</a>
-- <a href="#layouts">Layouts (Fimga/Framer)</a>
+- <a href="#layouts">Layouts (Figma/Framer)</a>
 - <a href="#deploy">Deploy</a>
 - <a href="#responsaveis">Responsáveis</a>
 
