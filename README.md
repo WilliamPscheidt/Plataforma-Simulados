@@ -8,9 +8,10 @@
 
 # 📡 Responsáveis
 <div id="responsaveis">
-- Front-End - Auxilio no Back-End - Infraestrutura - UI/UX: William Pscheidt Polaski
-- Back-End - Infraestrutura - Gabriel Marques
-- Project Manager - Rafael Gurkewitz - https://github.com/rafaelgurk<div>
+- Front-End - Auxilio no Back-End - Infraestrutura - UI/UX: William Pscheidt Polaski <br/>
+- Back-End - Infraestrutura - Gabriel Marques <br/>
+- Project Manager - Rafael Gurkewitz - https://github.com/rafaelgurk<br/>
+<div> 
 
 # 🎒 Sobre o Projeto
 <div id="sobre">Esse projeto tem como objetivo criar um ambiente de estudo para alunos e auxiliar Professores/Instituições de Ensino a elaborar questões e provas de forma digital, interativa e gammificada. No exemplo de preview abaixo foi utilizado para uma plataforma de Bombeiros Voluntários no entanto pode ser utilizado para qualquer nicho de estudos!</div> 
