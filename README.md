@@ -26,6 +26,11 @@ Administrador:
 
 Estrutura do Preview -> AWS (EC2) em São Paulo.
 
+# 📡 Layouts (Figma/Framer):
+- V1:
+- V2:
+- V3:
+
 # 📡 Responsáveis
 - Front-End - Auxilio no Back-End - Infraestrutura - UI/UX: William Pscheidt Polaski
 - Back-End - Infraestrutura - Gabriel Marques
