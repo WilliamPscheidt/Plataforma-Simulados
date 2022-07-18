@@ -10,7 +10,7 @@
 <div id="sobre">Esse projeto tem como objetivo criar um ambiente de estudo para alunos e auxiliar Professores/Instituições de Ensino a elaborar questões e provas de forma digital, interativa e gammificada. No exemplo de preview abaixo foi utilizado para uma plataforma de Bombeiros Voluntários no entanto pode ser utilizado para qualquer nicho de estudos!</div> 
 
 # 📡 Tecnologias Utilizadas                                                   
-<div id="tecnologias">Neste projeto foram utilizadas as tecnologias JavaScript, React e Node.JS, além de diversas outras bibliotecas para apoio.
+<div id="tecnologias">Neste projeto foram utilizadas as tecnologias JavaScript, React e Node.JS, além de diversas outras bibliotecas para apoio. <br/>
 <img style="width: 32px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png">
 <img style="width: 90px;" src="https://www.fullstackpython.com/img/logos/react.png">
 <img style="width: 90px;" src="https://miro.medium.com/max/1400/1*cqQsY4mgoBbzWgG_XCYSjg.png">
