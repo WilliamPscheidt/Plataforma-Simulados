@@ -48,15 +48,19 @@ Estrutura do Preview -> AWS (EC2) em São Paulo. <br/>
 
 # 📡 Deploy:
 <div id="deploy">
-1) Baixe esse repositório (Back-End, Front-End e Banco de Dados).
-2) Crie um Banco de Dados MySQL e importe o arquivo .SQL da pasta "Banco de Dados".
-3) Acesse a pasta "Back-End" e modifique todos os arquivos para os dados do seu Banco de Dados (Host, Usuário, Senha e Porta) e também as senhas para tokenização, por default todos esses campos estão como "Edite".
-4) Acesse a pasta "Front-End" e modifique todos os arquivos para utilizar o link utilizado para hospedar o seu Back-End. Caso esteja realizando o deploy localmente ficará algo semelhante a "http://localhost:4000/.."
-5) Feito todas as alterações, acesse novamente a pasta "Back-End" com um Prompt de Comando ou Terminal e digite:
+1) Baixe esse repositório (Back-End, Front-End e Banco de Dados). <br />
+2) Crie um Banco de Dados MySQL e importe o arquivo .SQL da pasta "Banco de Dados".<br />
+3) Acesse a pasta "Back-End" e modifique todos os arquivos para os dados do seu Banco de Dados (Host, Usuário, Senha e Porta) e também as senhas para tokenização, por default todos esses campos estão como "Edite". <br />
+4) Acesse a pasta "Front-End" e modifique todos os arquivos para utilizar o link utilizado para hospedar o seu Back-End. Caso esteja realizando o deploy localmente ficará algo semelhante a "http://localhost:4000/.." <br />
+5) Feito todas as alterações, acesse novamente a pasta "Back-End" com um Prompt de Comando ou Terminal e digite: <br />
+  ´´´
 - npm install
 - node index.js
-6) Acesse a pasta "Front-End" com um Prompt de Comando ou Terminal e digite:
+  ´´´
+6) Acesse a pasta "Front-End" com um Prompt de Comando ou Terminal e digite: <br />
+  ´´´
 - npm install
 - npm start
-7) Se todos os passos estiverem corretos, a plataforma estará acessível em "localhost:3000" e sua api em "localhost:4000".
+  ´´´
+7) Se todos os passos estiverem corretos, a plataforma estará acessível em "localhost:3000" e sua api em "localhost:4000". <br />
 </div>
