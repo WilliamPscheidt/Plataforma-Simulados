@@ -1,0 +1,3 @@
+Esse Front-End foi desenvolvido por William Pscheidt Polaski, assim como o UI/UX e projetos Figma/Framer.
+
+- GitHub: https://github.com/WilliamPscheidt/Plataforma-Simulados
