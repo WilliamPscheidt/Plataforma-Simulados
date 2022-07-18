@@ -50,8 +50,9 @@ Estrutura do Preview -> AWS (EC2) em São Paulo.
 - npm install
 - npm start
 7) Se todos os passos estiverem corretos, a plataforma estará acessível em "localhost:3000" e sua api em "localhost:4000".
-
-<div id="responsaveis"># 📡 Responsáveis
+8) 
+# 📡 Responsáveis
+<div id="responsaveis">
 - Front-End - Auxilio no Back-End - Infraestrutura - UI/UX: William Pscheidt Polaski
 - Back-End - Infraestrutura - Gabriel Marques
 - Project Manager - Rafael Gurkewitz - https://github.com/rafaelgurk<div>
