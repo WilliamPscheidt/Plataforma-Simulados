@@ -23,3 +23,5 @@ Administrador:
 - https://zyngo.com.br/admin/simulados/ (Deve rodar o projeto localmente)
 - https://zyngo.com.br/admin/adicionarperguntas/ (Deve rodar o projeto localmente)
 - https://zyngo.com.br/admin/gerenciarusuarios/ (Deve rodar o projeto localmente)
+
+Estrutura do Preview -> AWS (EC2) em São Paulo.
