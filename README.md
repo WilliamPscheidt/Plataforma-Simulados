@@ -17,7 +17,7 @@
 </div>
 
 # 📡 Preview do Projeto
-<div id="#preview">
+<div id="preview">
 Usuário:  <br/>
 - https://zyngo.com.br <br/>
 - https://zyngo.com.br/acesso  <br/>
@@ -34,7 +34,7 @@ Estrutura do Preview -> AWS (EC2) em São Paulo. <br/>
 </div>
 
 # 📡 Layouts (Figma/Framer):
-<div id="#layouts">
+<div id="layouts">
 - V1: https://framer.com/projects/Telas-projeto-bombeiros-TADS--rVCQ6j51gDKsp2G38lqd-1t8Ye (Esboço)
 - V2: https://www.figma.com/proto/HAW7fXXkG1rvwFxne4T6tQ/Untitled?node-id=2%3A2 (Esboço)
 </div>
