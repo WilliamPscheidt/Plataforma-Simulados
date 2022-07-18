@@ -27,9 +27,8 @@ Administrador:
 Estrutura do Preview -> AWS (EC2) em São Paulo.
 
 # 📡 Layouts (Figma/Framer):
-- V1:
-- V2:
-- V3:
+- V1: https://framer.com/projects/Telas-projeto-bombeiros-TADS--rVCQ6j51gDKsp2G38lqd-1t8Ye (Esboço)
+- V2: https://www.figma.com/proto/HAW7fXXkG1rvwFxne4T6tQ/Untitled?node-id=2%3A2 (Esboço)
 
 # 📡 Responsáveis
 - Front-End - Auxilio no Back-End - Infraestrutura - UI/UX: William Pscheidt Polaski
