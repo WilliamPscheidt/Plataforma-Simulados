@@ -6,6 +6,12 @@
 - <a href="#deploy">Deploy</a>
 - <a href="#responsaveis">Responsáveis</a>
 
+# 📡 Responsáveis
+<div id="responsaveis">
+- Front-End - Auxilio no Back-End - Infraestrutura - UI/UX: William Pscheidt Polaski
+- Back-End - Infraestrutura - Gabriel Marques
+- Project Manager - Rafael Gurkewitz - https://github.com/rafaelgurk<div>
+
 # 🎒 Sobre o Projeto
 <div id="sobre">Esse projeto tem como objetivo criar um ambiente de estudo para alunos e auxiliar Professores/Instituições de Ensino a elaborar questões e provas de forma digital, interativa e gammificada. No exemplo de preview abaixo foi utilizado para uma plataforma de Bombeiros Voluntários no entanto pode ser utilizado para qualquer nicho de estudos!</div> 
 
@@ -53,9 +59,3 @@ Estrutura do Preview -> AWS (EC2) em São Paulo. <br/>
 - npm start
 7) Se todos os passos estiverem corretos, a plataforma estará acessível em "localhost:3000" e sua api em "localhost:4000".
 </div>
-
-# 📡 Responsáveis
-<div id="responsaveis">
-- Front-End - Auxilio no Back-End - Infraestrutura - UI/UX: William Pscheidt Polaski
-- Back-End - Infraestrutura - Gabriel Marques
-- Project Manager - Rafael Gurkewitz - https://github.com/rafaelgurk<div>
