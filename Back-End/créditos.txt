@@ -1,0 +1,4 @@
+Essa API foi desenvolvida por Gabriel Marques e recebeu auxílio de William Pscheidt Polaski.
+
+- GitHub: Atualizar ----
+- GitHub: https://github.com/WilliamPscheidt/Plataforma-Simulados
