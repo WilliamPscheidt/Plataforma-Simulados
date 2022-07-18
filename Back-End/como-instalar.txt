@@ -1,0 +1,7 @@
+1) Crie um Banco de Dados MySQL e importe o arquivo .SQL disponível em https://github.com/WilliamPscheidt/Plataforma-Simulados/tree/main/Banco%20de%20Dados
+2) Acesse todos os arquivos (index.js e routes/*) e edite os campos de conexão do MySQL. Edite também a senha utilizada para a tokenização (JWT) no arquivo index.js.
+3) Acesse a pasta do Back-End com o Prompt de Comando ou Terminal e digite os comandos:
+- npm install
+- node index.js
+4) Se tudo estiver correto, o back-end será inicializado.
+5) Para o deploy do Front-End confira: https://github.com/WilliamPscheidt/Plataforma-Simulados/tree/main/Front-End -> como-instalar.txt
