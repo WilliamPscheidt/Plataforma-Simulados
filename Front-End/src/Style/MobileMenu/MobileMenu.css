@@ -1,0 +1,68 @@
+.mobile-menu {
+    position: relative;
+    height: 80px;
+    top: 5px;
+    right: 0;
+    background-color: transparent;
+}
+
+.mobile-menu .menu {
+    position: absolute;
+    top: 20px;
+    right: 5%;
+}
+
+
+.mobile-menu .menu2 {
+    position: absolute;
+    top: 20px;
+    right: 5%;
+}
+
+.mobile-menu #abrirmenu {
+    cursor: pointer;
+}
+
+.mobile-menu #abrirmenu2 {
+    cursor: pointer;
+}
+
+.mobile-menu .menu-expand {
+    top: -5px;
+    position: fixed;
+    background-color: rgb(19, 16, 16);
+    width: 300px;
+    height: 105vh;
+    z-index: 9999;
+    margin-left: -15px;
+    animation: animacaomobile 1000ms;
+}
+
+@keyframes animacaomobile {
+    from {
+      transform: translateX(-100%);
+    }
+  
+    to {
+      transform: translateX(0);
+    }
+  }
+
+.mobile-menu #icon {
+    margin: 30px 30px;
+    width: 45px;
+    z-index: 999999999;
+}
+
+.mobile-menu .deslogar {
+    position: relative;
+    left: 6px;
+}
+
+.mobile-menu #texto-menu {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-family: InterLight;
+}

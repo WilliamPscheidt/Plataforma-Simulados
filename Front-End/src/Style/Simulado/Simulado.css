@@ -1,0 +1,372 @@
+.bg-simulado-top {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.simulado {
+    background: linear-gradient(180deg, rgba(0, 216, 184, 0.212) 0%, rgba(232,230,230,0.7161239495798319) 61%);
+    font-family: 'Inter', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:overlay;
+}
+
+.simulado .questao-info {
+    position: relative;
+    top: 10px;
+    margin-right: -2px;
+    width: 40px;
+    height: 40px;
+    background-color: #00fdd73f;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    color: rgb(0, 0, 0);
+    border-radius: 10px 0 10px 10px;
+    padding: 23px;
+    z-index: 0;
+}
+
+.simulado #btnOpcao {
+    font-family: 'Nunito', sans-serif;
+    border: none;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 0px 10px 10px 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: rgb(24, 20, 20);
+    background-color: #00fdd73f;
+    border: 1px solid transparent;
+    font-weight: 100;
+    z-index: 99;
+}
+
+.simulado a {
+    text-decoration: none;
+    color: black;
+}
+
+.simulado .resultados-voltar {
+    width: 200px;
+    font-family: Inter;
+    border: none;
+    margin-top: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: rgb(24, 20, 20);
+    border: 1px solid #00d8b8c5;
+    background-color: #fff;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.simulado .resultados-dashboard {
+    width: 200px;
+    font-family: Inter;
+    border: none;
+    margin-top: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: rgb(24, 20, 20);
+    border: 1px solid #00d8b8c5;
+    background-color: #fff;
+    font-size: 1rem;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+.simulado #btnOpcao:hover {
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.simulado #texto-card-info {
+    font-size: 1.2rem;
+    position: relative;
+    opacity: 100%;
+}
+
+.simulado .card-info {
+    width: 900px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    padding-top: 40px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.simulado .card-finalizarprova {
+    width: 900px;
+    height: 120x;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    padding-top: 40px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.simulado .card-resultados {
+    width: 900px;
+    height: auto;
+    background-color: rgb(255, 254, 254);
+    padding: 30px;
+    padding-top: 40px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+
+.simulado .resultados-titulo {
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(233, 231, 231);
+}
+
+.simulado .resultados-h3 {
+    border-left: 5px solid #00D8B6;
+    padding-left: 10px;
+    font-size: 1.3rem;
+    font-family: "Inter";
+    font-weight: 700;
+}
+
+.resultados-exibir {
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.simulado .finalizar-prova {
+    font-family: Inter;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 45px;
+    font-size: 1rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: rgb(255, 255, 255);
+    background-color: #00D8B6;
+}
+
+.simulado .finalizar-prova:hover {
+    transform: scale(1.02);
+    border: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.simulado .card-gabarito {
+    margin-top: -5px;
+    width: 900px;
+    height: 60px;
+    background-color: rgb(233, 227, 227);
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.simulado .items-gabarito {
+    flex-wrap: wrap;
+}
+
+.simulado .card-info .tempo-restante {
+    font-size: 1.1rem;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.simulado .card-gabarito .lista-gabarito {
+    list-style: none;
+    background-color: rgba(41, 39, 39, 0.068);
+    color: rgb(0, 0, 0);
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+.simulado .card-gabarito .lista-gabarito:hover {
+    transform:scale(1.2);
+    color: white;
+    background-color: rgb(196, 86, 86);
+}
+
+.simulado .card-gabarito .active {
+    background-color: rgba(196, 86, 86, 0.651);
+    color: white;
+}
+
+.simulado .div-opcoes {
+    margin-top: 10px;
+}
+
+.simulado .div-questoes #texto-questao {
+    font-size: 1.1rem;
+}
+
+.simulado .div-opcoes .texto-opcao {
+    font-size: 1rem;
+}
+
+.simulado .card-questao {
+    margin-top: 20px;
+    width: 900px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.911);
+    padding: 40px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.simulado .separator-label {
+    margin: 10px 0;
+}
+
+.simulado .opcao-checkbox {
+    width: 18px;
+    height: 18px;
+}
+
+.simulado .texto-opcao {
+    margin-left: 5px;
+    font-size: 1rem;
+}
+
+.simulado .div-btns {
+    margin-top: 30px;
+}
+
+.simulado #btnProx {
+    width: 200px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 10px;
+    padding: 10px;
+    transition: 100ms;
+}
+
+.simulado #btnProx:hover {
+    transform:scale(1.1);
+    background-color: rgb(196, 86, 86);
+    color: #fff;
+    border: none;
+}
+
+.simulado #btnFinalizar {
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 10px;
+    padding: 10px;
+    transition: 100ms;
+}
+
+.simulado #btnFinalizar:hover {
+    transform:scale(1.1);
+    background-color: rgb(196, 86, 86);
+    color: #fff;
+    border: none;
+}
+
+.simulado .container-infos {
+    width: 100%;
+}
+.simulado .container-left {
+    flex-wrap: wrap;
+    width: 50%;
+}
+.simulado .container-right {
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.simulado .card-infos-simulado {
+    margin: 10px;
+    margin-bottom: 40px;
+}
+.simulado .separator {
+    padding-right: 15px;
+    border-right: 2px solid #000000;;
+}
+.simulado .texto-infos-acertos {
+    font-family: 'Nunito', sans-serif;
+    font-size: 3rem;
+    color: #00D8B6;
+    font-weight: 1000;
+}
+
+.simulado .texto-infos-erros {
+    font-family: 'Nunito', sans-serif;
+    font-size: 3rem;
+    color: #ee0d0d;
+    font-weight: 1000;
+}
+
+.simulado .texto-infos {
+    position: relative;
+    top: -10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 1000;
+}
+
+@media only screen and (max-width: 960px) {
+    .simulado .container-right {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 800px) {
+
+    .simulado .card-resultados {
+        width: 700px;
+        height: auto;
+    }
+
+    .simulado .container-total  {
+        position: absolute;
+        top: 0;
+    }
+
+    .simulado .opcao-checkbox {
+        width: 20px;
+        height: 15px;
+    }
+
+    .simulado .div-questoes #texto-questao {
+        font-size: 0.9rem;
+    }
+    
+    .simulado .card-gabarito .lista-gabarito {
+        margin: 5px;
+    }
+
+    .simulado .div-opcoes .texto-opcao {
+        font-size: 0.8rem;
+        margin-left: 5px;
+    }
+    
+    .simulado .card-gabarito {
+        width: 100vw;
+        height: 200px;
+    }
+    .simulado .card-info {
+        width: 100vw;
+    }
+    .simulado .card-questao {
+        margin-top: 50px;
+        width: 90vw;
+        height: 50%;
+    }
+}

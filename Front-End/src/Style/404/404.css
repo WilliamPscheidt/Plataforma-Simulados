@@ -1,0 +1,50 @@
+.NotFound {
+    flex-wrap: wrap;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(180deg, rgba(0, 216, 184, 0.212) 0%, rgba(232,230,230,0.7161239495798319) 61%);
+}
+
+@keyframes slidein {
+    from {
+      transform: translateX(100%);
+    }
+  
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+.NotFound .texto {
+    margin-top: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #00D8B6;
+    margin-left: 50px;
+    font-size: 1.8rem;
+    animation: slidein 900ms;
+}
+
+.NotFound .link-inicio {
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    color: rgb(33, 177, 148);
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 800;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.836);
+    padding: 10px 40px;
+    animation: slidein 900ms;
+}
+
+.NotFound a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1162px) {
+    .NotFound .texto {
+      top: -200px;
+      font-size: 1rem;
+    }
+  }

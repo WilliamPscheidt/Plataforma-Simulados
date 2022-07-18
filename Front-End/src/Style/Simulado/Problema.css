@@ -1,0 +1,66 @@
+.problema-detectado {
+    background: linear-gradient(180deg, rgba(0, 216, 184, 0.212) 0%, rgba(232,230,230,0.7161239495798319) 61%);
+}
+
+.problema-detectado #link {
+    text-decoration: none;
+    color: black;
+}
+
+.problema-detectado .card-resultados {
+    width: 900px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    padding-top: 40px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+
+.problema-detectado .resultados-titulo {
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(223, 222, 222);
+}
+
+.problema-detectado .resultados-h3 {
+    border-left: 5px solid #00D8B6;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    font-family: "Inter";
+    font-weight: 700;
+}
+
+.problema-detectado .resultados-voltar {
+    width: 250px;
+    font-family: Inter;
+    border: none;
+    margin-top: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: rgb(24, 20, 20);
+    border: 1px solid #00d8b8c5;
+    background-color: #fff;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.problema-detectado .resultados-dashboard {
+    width: 250px;
+    font-family: Inter;
+    border: none;
+    margin-top: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: rgb(24, 20, 20);
+    border: 1px solid #00d8b8c5;
+    background-color: #fff;
+    font-size: 1rem;
+    font-weight: 100;
+    margin-left: 10px;
+}

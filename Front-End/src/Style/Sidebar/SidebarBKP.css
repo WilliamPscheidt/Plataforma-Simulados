@@ -1,0 +1,67 @@
+#sidebar {
+    position: relative;
+    width: 5%;
+}
+
+#sidebar #sidebar-menu {
+    margin-top: 0;
+    margin-left: -11.8px;
+    width: 70px;
+    height: 100%;
+    min-height: 500px;
+    background: rgb(240, 240, 240);  /* fallback for old browsers */
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.20);
+    position: fixed;
+    border-radius: 0;
+    transition: calc(600ms);
+    animation: load 360ms ease-out;
+    list-style: none;
+}
+
+#sidebar #icon {
+    width: 26px;
+    color: #fff;
+}
+
+#sidebar #option {
+    list-style: none;
+    position: relative;
+    margin-top: 30px;
+    width: 26px;
+    height: 26px;
+    transition: calc(600ms);
+    fill: #fff;
+}
+
+#sidebar #textoMenu{
+    margin-left: 5px; color: rgb(240, 238, 238);; font-weight: 100; font-family: 'RobotoCondensed', sans-serif;
+}
+#sidebar #textoMenu2{
+    margin-top: 32px; margin-left: 5px; color: rgb(240, 238, 238);; font-weight: 100; font-family: 'RobotoCondensed', sans-serif;
+}
+#sidebar #textoMenu3{
+    margin-top: 32px; margin-left: 5px; color: rgb(240, 238, 238);; font-weight: 100; font-family: 'RobotoCondensed', sans-serif;
+}
+#sidebar #textoMenu4{
+    margin-top: 32px; margin-left: 5px; color: rgb(240, 238, 238);; font-weight: 100; font-family: 'RobotoCondensed', sans-serif;
+}
+#sidebar#textoMenu5{
+    margin-top: 32px; margin-left: 5px; color: rgb(240, 238, 238);; font-weight: 100; font-family: 'RobotoCondensed', sans-serif;
+}
+
+#sidebar#div-sidebar #sidebar-menu #menu-sidebar {
+    list-style: none;
+}
+
+#sidebar #div-sidebar #sidebar-menu #menu-icon:hover {
+    transform: rotate(360deg);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#sidebar ul li:hover {
+    transform: rotate(360deg);
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+}

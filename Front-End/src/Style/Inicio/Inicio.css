@@ -1,0 +1,724 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.inicio {
+    background-color: #E8E6E6;
+    font-family: 'Inter', sans-serif;
+}
+
+.inicio a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.inicio .invertido {
+    margin-top: -100px;
+}
+
+.inicio .lottie-sobre {
+    position: relative;
+    top: -20px;
+}
+
+.inicio .lottie-menu {
+    width: 900px;
+    height: 900px;
+}
+
+.inicio .gradient-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(180deg, rgba(0, 216, 184, 0.082) 0%, rgba(232, 230, 230, 0.7161239495798319) 100%);
+}
+
+.inicio .logo-titulo {
+    margin-left: 30px;
+    padding-left: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    color: #00D8B6;
+    font-size: 2.5rem;
+}
+
+.inicio .sobrea {
+    position: relative;
+    margin-top: -200px;
+    margin-bottom: -200px;
+}
+
+.inicio .slogan {
+    font-size: 58px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    color: #00D8B6;
+}
+
+.inicio .slogan2 {
+    position: relative;
+    top: -30px;
+    font-size: 58px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+}
+
+.inicio .texto {
+    position: relative;
+    top: -30px;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+}
+
+.input-contatoA {
+    border: 1px solid #00D8B6;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.input-contato {
+    border: 1px solid #00D8B6;
+    border-radius: 10px;
+}
+
+.btn-contato-bottom {
+    margin-top: 10px;
+    background-color: #00D8B6;
+    padding: 10px;
+    color: white;
+    font-family: Inter;
+    border: none;
+    border-radius: 10px;
+}
+
+.inicio #link-acesso {
+    position: relative;
+    top: -1.2px;
+    color: #E8E6E6;
+    font-size: 13px;
+}
+
+.inicio a:hover {
+    color: #00D8B6;
+}
+
+.inicio #link-contato:hover {
+    color: black;
+}
+
+.inicio #link-simulado {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.inicio #link-simulado2 {
+    color: #f8f8f8;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.inicio .container-fluid {
+    padding: 0 100px;
+}
+
+/* Menu --- */
+
+.inicio .menu {
+    padding-top: 52px;
+    margin-left: -30px;
+}
+
+.inicio .menu .itens-menu li {
+    list-style: none;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 700;
+    z-index: 2;
+}
+
+.inicio .menu .itens-menu li:hover {
+    color: #00D8B6;
+}
+
+.inicio .menu .itens-menu li:nth-child(2),
+.inicio .menu .itens-menu li:nth-child(3),
+.inicio .menu .itens-menu li:nth-child(4) {
+    margin-left: 25px;
+}
+
+.inicio .menu .itens-menu .selected {
+    border-bottom: 3px solid #00D8B6;
+}
+
+.inicio .menu .btn-nav {
+    margin-left: 20px;
+    width: 220px;
+    height: 42px;
+    border-radius: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    border: none;
+    background-color: #00D8B6;
+    color: #E8E6E6;
+    z-index: 2;
+}
+
+.inicio .menu .btn-nav:hover {
+    background-color: #00D8B6;
+}
+
+/* Menu-Expand --- */
+
+.inicio .menu-expand .slider {
+    position: relative;
+    height: 300px;
+    object-fit: cover;
+    opacity: 10%;
+    border-radius: 10px;
+}
+
+.inicio .menu-expand {
+    margin-top: 83px;
+}
+
+.inicio .menu-expand .texto-menu2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    z-index: 2;
+}
+
+.inicio .menu-expand .texto-menu3 {
+    position: relative;
+    top: -240px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    z-index: 2;
+}
+
+.inicio .menu-expand .btn-simulado {
+    margin-top: -10px;
+    width: 250px;
+    height: 45px;
+    border-radius: 50px;
+    font-family: 'Nunito', sans-serif;
+    border: 1px solid #2b2828;
+    color: #000000;
+    background-color: transparent;
+    transition: 400ms;
+    z-index: 2;
+}
+
+.inicio .menu-expand .btn-simulado:hover {
+    background-color: #2a2b2a;
+    color: white;
+}
+
+
+.inicio .menu-expand .container-menu-expand {
+    display: flex;
+}
+
+.inicio .menu-expand .imagem-menu-expand {
+    position: relative;
+    right: 0;
+}
+
+.inicio .image-card-imagem {
+    height: 26px;
+    width: 26px;
+    image-rendering: pixelated;
+    opacity: 0.50;
+    filter: drop-shadow(5px 5px 5px #111);
+}
+
+/* Cards --- */
+
+.inicio .cards {
+    margin-top: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.inicio .cards .wrap-card {
+    flex-wrap: wrap;
+    min-width: 230px;
+    margin: 0 25px;
+}
+
+.internal-container-card {
+    height: 100%;
+}
+
+.inicio .cards .div-card {
+    width: 300px;
+    height: 450px;
+    background: #E9EEEA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    transition: 600ms;
+    cursor: pointer;
+    margin-bottom: 82px;
+    transition: 1000ms;
+}
+
+
+.inicio .cards .div-card:hover {
+    z-index: 1000;
+    box-shadow: 0px 50px 50px rgba(0, 0, 0, 0.25);
+    background-color: #00D8B6;
+    color: black;
+    font-weight: 500;
+}
+
+.inicio .cards .card-titulo {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.inicio .cards .icone-card {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 150px;
+    fill: wheat;
+}
+
+.inicio .cards .card-texto {
+    font-size: 18px;
+}
+
+/* Conheça --- */
+
+.conheca {
+    margin-bottom: 82px;
+}
+
+.conheca .title {
+    margin-bottom: 82px;
+}
+
+.conheca .card-sobre {
+    height: auto;
+}
+
+.conheca .title .title-text {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.conheca .container-left {
+    width: 100%;
+    height: auto;
+    background: #E9EEEA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.conheca .p-sobre {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.conheca .p-sobre-invertido {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+.conheca .title-sobre {
+    font-family: 'Nunito', sans-serif;
+    color: #000000;
+    font-weight: 900;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.conheca .title-sobre-invertido {
+    float: right;
+    font-family: 'Nunito', sans-serif;
+    color: #000000;
+    font-weight: 900;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.conheca .btn-container {
+    margin-top: 20px;
+    width: 250px;
+    height: 45px;
+    border: 2px solid transparent;
+    background-color: #000000;
+    color: white;
+    border-radius: 30px;
+    transition: 1000ms;
+}
+
+.conheca .btn-container:hover {
+    background-color: #1f2423;
+}
+
+.conheca .image-card-imagem {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    mix-blend-mode: normal;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+/* Contato */
+
+.contato {
+    margin-top: -30px;
+    padding-bottom: 82px;
+}
+
+.contato .contato-text {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.contato .btn-contato {
+    width: 300px;
+    height: 60px;
+    background: #E9EEEA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    font-weight: 700;
+    border-radius: 30px;
+    transition: 1000ms;
+}
+
+.contato .btn-contato:hover {
+    background-color: #cecece;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #25252507;
+    margin-top: -30px;
+}
+
+.footer .menu-footer {
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    top: 7px;
+    list-style: none;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #00D8B6;
+    font-weight: 1000;
+}
+
+.footer .imagem-footer {
+    margin-right: 20px;
+}
+
+.footer .socials-footer {
+    top: -5px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.inicio .logo-titulo-footer {
+    border-right: 2px solid #00D8B6;
+    padding-right: 10px;
+    margin-left: 30px;
+    padding-left: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    color: #000000;
+    font-size: 1.9rem;
+}
+
+
+@media only screen and (max-width: 1400px) {
+    .invertido {
+        margin-top: -50px;
+    }
+
+    .inicio .cards .div-card {
+        width: 300px;
+    }
+
+    .inicio .slogan {
+        font-size: 40px;
+    }
+
+    .inicio .slogan2 {
+        position: relative;
+        top: -20px;
+        font-size: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    .inicio .menu-expand .texto-menu2 {
+        font-size: 1.5rem;
+    }
+
+    .inicio .cards .wrap-card {
+        width: 100px;
+    }
+
+    .inicio .cards .div-card {
+        width: 250px;
+    }
+
+    .inicio .lottie-menu {
+        width: 600px;
+    }
+
+    .inicio .slogan {
+        font-size: 35px;
+    }
+
+    .inicio .slogan2 {
+        position: relative;
+        top: -20px;
+        font-size: 35px;
+    }
+
+    .inicio .texto {
+        font-size: 25px;
+    }
+
+    .inicio .menu-expand .btn-simulado {
+        width: 220px;
+        height: 45px;
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+
+    .inicio .menu .btn-nav {
+
+        font-size: 15px;
+    }
+
+    .inicio .menu-expand .texto-menu2 {
+        font-size: 1.3rem;
+    }
+
+    .inicio .lottie-menu {
+        width: 450px;
+    }
+
+    .inicio .texto {
+        font-size: 18px;
+    }
+
+    .inicio .menu-expand .btn-simulado {
+        width: 200px;
+        height: 40px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .inicio .contato .contato-text {
+        font-size: 1.3rem
+    }
+
+    .inicio .menu .btn-nav {
+        width: 170px;
+        font-size: 13px;
+    }
+
+    .inicio .menu-expand .texto-menu2 {
+        font-size: 1.3rem;
+    }
+
+    .inicio .menu .itens-menu li {
+        position: relative;
+        top: 7px;
+        font-size: 15px;
+    }
+
+    .inicio .lottie-menu {
+        position: relative;
+        top: -140px;
+        width: 600px;
+    }
+
+    .inicio .slogan {
+        position: relative;
+        top: -80px;
+        font-size: 50px;
+    }
+
+    .inicio .slogan2 {
+        position: relative;
+        top: -90px;
+        font-size: 24px;
+    }
+
+    .inicio .texto {
+        position: relative;
+        top: -80px;
+        font-size: 20px;
+    }
+
+    .inicio .menu-expand .btn-simulado {
+        position: relative;
+        top: -50px;
+        width: 180px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .inicio .cards .wrap-card {
+        min-width: 100%;
+    }
+
+    .inicio .cards {
+        margin-top: 150px;
+    }
+
+    .inicio .div-card:last-child {
+        width: 300px;
+        margin-top: -50px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    .inicio .menu-expand .btn-simulado {
+        display: none;
+    }
+
+    .inicio .lottie-menu {
+        top: -100px;
+        position: relative;
+        width: 420px;
+    }
+
+    .inicio .slogan {
+        top: -60px;
+        position: relative;
+        font-size: 45px;
+    }
+
+    .inicio .slogan2 {
+        position: relative;
+        top: -70px;
+        font-size: 30px;
+    }
+
+    .inicio .texto {
+        position: relative;
+        top: -60px;
+        font-size: 20px;
+    }
+
+    .inicio .menu-expand .btn-simulado {
+        background-color: #00D8B6;
+    }
+
+    .inicio .slider {
+        width: 100%;
+    }
+
+    .inicio .menu-expand .btn-simulado:hover {
+        background-color: #00D8B6;
+    }
+
+    .inicio .menu-expand {
+        margin-top: -20px;
+    }
+
+    .inicio .menu-expand .texto-menu2 {
+        font-size: 1.5rem;
+    }
+
+    .conheca .btn-container {
+        width: 200px;
+        height: 45px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+
+    .inicio .menu-expand .btn-simulado {
+        display: none;
+    }
+
+    .inicio .lottie-menu {
+        top: -100px;
+        position: relative;
+        width: 420px;
+    }
+
+    .inicio .slogan {
+        top: -60px;
+        position: relative;
+        font-size: 45px;
+    }
+
+    .inicio .slogan2 {
+        position: relative;
+        top: -70px;
+        font-size: 30px;
+    }
+
+    .inicio .texto {
+        position: relative;
+        top: -60px;
+        font-size: 17px;
+    }
+
+    .inicio .menu-expand .btn-simulado {
+        background-color: #00D8B6;
+    }
+
+    .inicio .slider {
+        width: 100%;
+    }
+
+    .inicio .menu-expand .btn-simulado:hover {
+        background-color: #00D8B6;
+    }
+
+    .inicio .menu-expand {
+        margin-top: -20px;
+    }
+
+    .inicio .menu-expand .texto-menu2 {
+        font-size: 1.5rem;
+    }
+
+    .conheca .btn-container {
+        width: 160px;
+        height: 45px;
+        font-size: 14px;
+    }
+}
+
+@keyframes trocarcard {
+    from {
+        transform: translateX(10%);
+        transform: translateY(-5%);
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}

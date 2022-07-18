@@ -1,0 +1,170 @@
+.perfil {
+    background: linear-gradient(180deg, rgba(0, 216, 184, 0.212) 0%, rgba(232,230,230,0.7161239495798319) 61%); 
+}
+
+.perfil .botoesacoes {
+    flex-wrap: wrap;
+}
+
+.perfil #perfil-container {
+    border-radius: 5px;
+    padding: 40px;
+    width: 60%;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.20);
+    color: var(--cor-icones);
+    background-color: #ffffff80;
+    transition: calc(690ms);
+    animation: fadeprovas 1500ms ease-out;
+    /**animation: loadBottom 2000ms ease-in;**/
+}
+
+.perfil #lista-avatar {
+    margin-left: 50px;
+    animation: aparecer 500ms;
+    flex-wrap: wrap;
+}
+
+.perfil #avatar {
+    margin-left: 5px;
+    flex-wrap: wrap;
+    animation: aparecer 500ms;
+}
+
+.perfil #avatar:hover {
+    transform: scale(1.10);
+}
+
+@keyframes aparecer {
+    from {opacity: 0;}
+    to {opacity: 100;}
+  }
+
+.perfil #titulo-perfil {
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.perfil #icon-titulo {
+    position: relative;
+    top: -4px;
+    margin-right: 4px;
+    width: 30px;
+    color: black;
+}
+
+.perfil #inativar {
+    margin-top: 5px;
+    color: black;
+}
+
+.perfil #btnAvatar {
+    margin-top: 2px;
+    width: 150px;
+    height: 30px;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    color: #000;
+    border: none;
+}
+
+.perfil #removerconta {
+    color: red;
+}
+
+.perfil #avatar {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-top: 20px;
+    border-radius: 100px;
+    border: 1px solid var(--fundo-elementos);
+}
+
+.perfil #avatar:hover {
+    cursor: pointer;
+}
+
+.perfil #titulo-prova {
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.perfil #provas-disponiveis span{
+    margin-top: 20px;
+}
+
+.perfil input {
+    left: 20px;
+    width: 100%;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid #b0b8c56e;
+    color: #000;
+    padding-left: 10px;
+}
+
+.perfil #btnSalvar {
+    position: relative;
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    background: #00D8B6;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    transition: calc(360ms);
+    margin-right: 20px;
+}
+
+.perfil #btnSalvar:hover {
+    transform: scale(1.2);
+}
+
+.perfil #btnDesativar {
+    position: relative;
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid #00D8B6;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    transition: calc(360ms);
+    margin-right: 20px;
+}
+
+.perfil #span-input {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 5px;
+}
+
+.perfil ::placeholder {
+    color: #B0B8C5;
+    font-weight: 100;
+    font-size: 1rem;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 1199px)
+{
+    .perfil #perfil-container {
+        margin-top: 0px;
+        width: 100%;
+        padding: 30px;
+    }
+}

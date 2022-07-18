@@ -1,0 +1,300 @@
+.modal_ {
+    z-index: 99999;
+}
+
+.prova-bg {
+    background: linear-gradient(180deg, rgba(0, 216, 184, 0.212) 0%, rgba(232,230,230,0.7161239495798319) 61%);
+}
+
+.provas .provas-container {
+    border-radius: 5px;
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    transition: calc(690ms);
+    /**animation: loadBottom 2000ms ease-in;**/
+}
+
+.provas .info-prova {
+    margin: 10px 5px;
+    border: 1px solid #00d8b83a;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 0.8rem;
+    width: auto;
+    padding: 0 20px;
+}
+
+.provas .texto-info-prova {
+    margin-top: 16px;
+    font-family: Inter;
+}
+
+.provas #link-provas {
+    text-decoration: none;
+    color: black;
+}
+
+.provas .provas-disponiveis {
+    padding: 11.2px 30px;
+    margin-top: 90px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.20);
+    padding-bottom: 20px;
+    animation: fadeprovas 1500ms ease-out;
+}
+
+.provas .provas-disponiveis:nth-child(2), .provas .provas-disponiveis:nth-child(3) {
+    margin-top: 50px;
+}
+
+.provas .provas-disponiveis:nth-child(3) {
+    margin-bottom: 90px;
+}
+
+.provas #card-dificuldade {
+    position: relative;
+    top: -20px;
+    left: 20px;
+    margin-bottom: -20px;
+    padding: 10px;
+    width: 250px;
+    height: 45px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.20);
+    background-color: #fff;
+}
+
+.provas .Fácil {
+    background-color: #fff;
+}
+
+.provas .Moderado {
+    background-color: #fff;
+}
+
+.provas .Dificil {
+    background-color: #fff;
+}
+
+.provas #textoDificuldade {
+    position: relative;
+    top: -5px;
+    font-size: 1rem;
+    font-weight: 100;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+
+.provas #bold {
+    font-size: 1.0rem;
+    font-weight: 600;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+
+.provas #texto-prova {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 1rem;
+    text-align: left;
+    transition: 100ms;
+    background-color: #f4f8f7;
+}
+
+.provas #texto-prova:hover {
+    border: 0.5px solid #00D8B6;
+    transform: translateX(20px);
+}
+
+.provas #card-concluida {
+    width: 200px;
+    padding-top: 7px;
+    text-align: center;
+    background-color: #00D8B6;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    z-index: 50;
+    cursor: pointer;
+}
+
+.provas #card-pendente {
+    width: 120px;
+    padding-top: 6px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #df4111;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    z-index: 50;
+}
+
+.provas #prova {
+    list-style: none;
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #00d8b823;
+    background: #F8F9FA;  /* f#F8F9FA; */
+    border-radius: 5px;
+    transition: calc(360ms);
+}
+
+.provas #ranking {
+    margin-left: 60px;
+    margin-top: 90px;
+    border-radius: 5px;
+    width: 350px;
+    height: auto;
+    padding-bottom: 30px;
+    background-color: #fff;
+    transition: calc(600ms);
+    animation: fadeprovas 1500ms ease-out;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.20);
+}
+
+.provas #provas-realizadas {
+    margin-left: 60px;
+    margin-top: 55px;
+    border-radius: 5px;
+    width: 350px;
+    height: auto;
+    padding-bottom: 30px;
+    background-color: #fff;
+    transition: calc(600ms);
+    animation: fadeprovas 1500ms ease-out;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.20);
+}
+
+.provas .container-dados {
+    width: 90%;
+}
+
+.provas #icon-dados {
+    margin-right: 5px;
+}
+
+.provas .provas-realizadas-texto {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin-top: 26px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin-left: 25px;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.provas .provas-realizadas-texto:nth-child(2) {
+    margin-top: 5px;
+}
+
+.provas #titulo-ranking {
+    margin-top: 20px;
+    margin-left: 29px;
+    font-size: 1.2rem;
+    border-left: 3px solid #00d8b848;
+    padding-left: 16px;
+    font-weight: 700;
+    color: var(--cor-icones);
+}
+
+.provas #avatar-ranking {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.provas #rank {
+    margin-top: 20px;
+}
+
+.provas #ranking-pessoas {
+    list-style: none;
+    position: relative;
+    left: 18px;
+}
+
+.provas #texto-ranking {
+    position: relative;
+    top: 1px;
+    margin-left: 10px;
+}
+
+.provas #top1 {
+    font-family: "Inter";
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 30px;
+    color: #ffffff;
+    margin-right: 10px;
+    border: 1px solid transparent;
+    background-color: #00d8b8c2;
+    color: white;
+}
+.provas #top2 {
+    font-family: "Inter";
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 30px;
+    color: #ffffff;
+    margin-right: 10px;
+    border: 1px solid transparent;
+    background-color: #00d8b8c2;
+    color: white;
+}
+.provas #top3 {
+    font-family: "Inter";
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 30px;
+    color: #ffffff;
+    margin-right: 10px;
+    border: 1px solid #00D8B6;
+    color: black;
+}
+
+.provas #toplow {
+    font-family: "Inter";
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 30px;
+    color: #ffffff;
+    margin-right: 10px;
+    border: 1px solid #00D8B6;
+    color: black;
+}
+
+#ranking-div {
+    border-bottom: 2px solid #d5d6d642;
+}
+
+@media only screen and (max-width: 1250px) {
+    .provas .provas-disponiveis {
+        margin-top: 90px;
+    }
+  }
+
+@media only screen and (max-width: 1601px) {
+    .provas .provas-disponiveis {
+        margin-top: 90px;
+        width: 96%;
+    }
+  }
+
+  @media only screen and (max-width: 1600px) {
+    .provas #ranking, .provas #provas-realizadas {
+        margin-left: 10px;
+    }
+}
+
+@keyframes fadeprovas {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
