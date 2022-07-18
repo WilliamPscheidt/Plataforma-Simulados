@@ -1,5 +1,13 @@
+# 🎒 O que você quer ver?
+- <a href="#sobre">Sobre o Projeto</a>
+- Tecnologias Utilizadas
+- Preview do Projeto
+- Layouts (Fimga/Framer)
+- Deploy
+- <a href="#responsaveis">Responsáveis</a>
+
 # 🎒 Sobre o Projeto
-<div class="sobre">Esse projeto tem como objetivo criar um ambiente de estudo para alunos e auxiliar Professores/Instituições de Ensino a elaborar questões e provas de forma digital, interativa e gammificada. No exemplo de preview abaixo foi utilizado para uma plataforma de Bombeiros Voluntários no entanto pode ser utilizado para qualquer nicho de estudos!</div> 
+<div id="sobre">Esse projeto tem como objetivo criar um ambiente de estudo para alunos e auxiliar Professores/Instituições de Ensino a elaborar questões e provas de forma digital, interativa e gammificada. No exemplo de preview abaixo foi utilizado para uma plataforma de Bombeiros Voluntários no entanto pode ser utilizado para qualquer nicho de estudos!</div> 
 
 # 📡 Tecnologias Utilizadas                                                   
 <div>Neste projeto foram utilizadas as tecnologias JavaScript, React e Node.JS, além de diversas outras bibliotecas para apoio.</div>
@@ -43,7 +51,7 @@ Estrutura do Preview -> AWS (EC2) em São Paulo.
 - npm start
 7) Se todos os passos estiverem corretos, a plataforma estará acessível em "localhost:3000" e sua api em "localhost:4000".
 
-# 📡 Responsáveis
+<div id="responsaveis"># 📡 Responsáveis
 - Front-End - Auxilio no Back-End - Infraestrutura - UI/UX: William Pscheidt Polaski
 - Back-End - Infraestrutura - Gabriel Marques
-- Project Manager - Rafael Gurkewitz - https://github.com/rafaelgurk
+- Project Manager - Rafael Gurkewitz - https://github.com/rafaelgurk<div>
