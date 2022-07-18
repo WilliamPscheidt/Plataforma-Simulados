@@ -1,10 +1,10 @@
 # 🎒 O que você quer ver?
+- <a href="#responsaveis">Responsáveis</a>
 - <a href="#sobre">Sobre o Projeto</a>
 - <a href="#tecnologias">Tecnologias Utilizadas</a>
 - <a href="#preview">Preview do Projeto</a>
 - <a href="#layouts">Layouts (Figma/Framer)</a>
 - <a href="#deploy">Deploy</a>
-- <a href="#responsaveis">Responsáveis</a>
 
 # 📡 Responsáveis
 <div id="responsaveis">
