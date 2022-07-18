@@ -1,0 +1,44 @@
+{
+  "name": "zyngo",
+  "homepage": "https://zyngo.com.br/",
+  "version": "0.1.7",
+  "private": true,
+  "dependencies": {
+    "@types/bootstrap": "^5.1.10",
+    "@types/jquery": "^3.5.14",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0",
+    "react": "^18.0.0",
+    "react-apexcharts": "^1.4.0",
+    "react-bootstrap": "^2.3.0",
+    "react-dom": "^18.0.0",
+    "react-lottie-player": "^1.4.3",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
