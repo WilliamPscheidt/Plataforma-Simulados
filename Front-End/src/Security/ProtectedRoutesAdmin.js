@@ -2,6 +2,8 @@ import { Outlet, useNavigate } from "react-router-dom";
 import Axios from 'axios'
 import { useEffect, useState } from "react";
 
+import configs from '../Configurations/Configs.json'
+
 const ProtectedRoutesAdmin = () => {
 
 
@@ -15,7 +17,7 @@ const ProtectedRoutesAdmin = () => {
   //const redirecionar = useNavigate();
 
   //useEffect(() => {
-  //  Axios.post('https://api.zyngo.com.br/api/validarTokenAdmin', {
+  //  Axios.post('configs.BASE_URL+/api/validarTokenAdmin', {
   //    token: localStorage.getItem('token-admin'),
   //  }).then((response) => {
   //    if (response.data.erro) {

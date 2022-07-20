@@ -17,6 +17,8 @@ import SVGWarning from '../../Assets/Images/warning-svgrepo-com.svg'
 import Lottie from 'react-lottie-player'
 import lottieJson from '../../Assets/Animations/96487-award-or-achievement-animation.json'
 
+import configs from '../../Configurations/Configs.json'
+
 const Simulado = () => {
 
     const redirecionar = useNavigate();
@@ -61,7 +63,7 @@ const Simulado = () => {
     }
 
     const pegarPerguntas = () => {
-        Axios.post('https://api.zyngo.com.br/prova/listarPerguntas', {
+        Axios.post(configs.BASE_URL+'/prova/listarPerguntas', {
             dificuldade: dificuldadeProva
         }).then((response) => {
             if(response){
@@ -90,7 +92,7 @@ const Simulado = () => {
         clearInterval(timer);
         clearInterval(timerDec);
 
-        Axios.post('https://api.zyngo.com.br/prova/validarRespostas', {
+        Axios.post(configs.BASE_URL+'/prova/validarRespostas', {
             codPergunta: codPergunta,
             resposta: respostas,
             email: localStorage.getItem("user"),

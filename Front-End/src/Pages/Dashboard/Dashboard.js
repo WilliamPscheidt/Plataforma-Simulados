@@ -8,6 +8,8 @@ import DashboardStatsBottom from "../../Components/Dashboard/DashboardStatsBotto
 
 import MobileMenu from "../../Components/MobileMenu/MobileMenu";
 
+import configs from '../../Configurations/Configs.json'
+
 import Axios from "axios";
 
 const Dashboard = () => {
@@ -16,7 +18,7 @@ const Dashboard = () => {
     const [posicao, setPosicao] = useState(0);
 
     useEffect(() => {
-        Axios.post('https://api.zyngo.com.br/dashboard/cardsDash', {
+        Axios.post(configs.BASE_URL+'/dashboard/cardsDash', {
             email: localStorage.getItem("user")
         }).then((response) => {
             if(response.data.pontuacao && response.data.posicao) {

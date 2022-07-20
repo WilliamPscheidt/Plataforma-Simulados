@@ -6,6 +6,8 @@ import Alert from 'react-bootstrap/Alert'
 
 import '../../Style/Admin/Admin-Login.css'
 
+import configs from '../../Configurations/Configs.json'
+
 import Lottie from 'react-lottie-player'
 import bgSimulado from '../../Assets/Animations/84669-background-animation (2).json'
 
@@ -32,7 +34,7 @@ const AdminLogin = () => {
       return
     }
 
-    Axios.post('https://api.zyngo.com.br/api/validarAdmin', {
+    Axios.post(configs.BASE_URL+'/api/validarAdmin', {
       email: body.email,
       senha: body.senha,
     }).then((response) => {
