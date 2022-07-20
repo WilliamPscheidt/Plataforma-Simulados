@@ -1,4 +1,5 @@
-1) Acesse todos os arquivos e edite os campos de conexão ao Back-End. Para fazer esse passo é necessário que o Back-End já esteja em funcionamento, confira: https://github.com/WilliamPscheidt/Plataforma-Simulados/blob/main/Back-End/como-instalar.txt
+1) Acesse o diretório "/src/configurations/configs.json" e edite o conteúdo de "BASE_URL" para o link que a sua API está rodando. O default é http://localhost:4000/ caso esteja rodando localmente.
+Importante: Para fazer esse passo é necessário que o Back-End já esteja em funcionamento, confira: https://github.com/WilliamPscheidt/Plataforma-Simulados/blob/main/Back-End/como-instalar.txt
 2) Acesse a pasta do Front-End com o Prompt de Comando ou Terminal e digite os comandos:
 - npm install
 - npm start
