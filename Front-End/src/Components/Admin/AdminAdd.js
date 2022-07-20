@@ -6,6 +6,8 @@ import Axios from 'axios';
 
 import $ from 'jquery'
 
+import configs from '../../Configurations/Configs.json'
+
 import SVGFiltro from '../../Assets/Images/filter-svgrepo-com.svg'
 import SVGFechar from '../../Assets/Images/x-svgrepo-com.svg'
 
@@ -17,7 +19,7 @@ const AdminAdd = () => {
   const [exibirFiltro, setExibirFiltro] = useState(true);
 
   const AtualizarDados = () => {
-    Axios.get('https://api.zyngo.com.br/admin/listarPessoas')
+    Axios.get(configs.BASE_URL+'/admin/listarPessoas')
       .then((response) => {
         setListaUsuarios(response.data.result)
       });
@@ -31,7 +33,7 @@ const AdminAdd = () => {
     setFeedback()
     setTipoFeedback()
 
-    Axios.post('https://api.zyngo.com.br/admin/cadastrarAdmin', {
+    Axios.post(configs.BASE_URL+'/admin/cadastrarAdmin', {
       email: email,
       admEmail: localStorage.getItem('user')
     }).then((response) => {
@@ -51,7 +53,7 @@ const AdminAdd = () => {
     setFeedback()
     setTipoFeedback()
 
-    Axios.post('https://api.zyngo.com.br/admin/removerAdmin', {
+    Axios.post(configs.BASE_URL+'/admin/removerAdmin', {
       email: email,
       admEmail: localStorage.getItem('user')
     }).then((response) => {
@@ -70,7 +72,7 @@ const AdminAdd = () => {
     setFeedback()
     setTipoFeedback()
 
-    Axios.post('https://api.zyngo.com.br/admin/desativarConta', {
+    Axios.post(configs.BASE_URL+'/admin/desativarConta', {
       email: email
     }).then((response) => {
       if (response.data.sucesso) {
@@ -85,7 +87,7 @@ const AdminAdd = () => {
   }
 
   const filtrarAdministradores = () => {
-    Axios.get('https://api.zyngo.com.br/admin/listarPessoas')
+    Axios.get(configs.BASE_URL+'/admin/listarPessoas')
       .then((response) => {
         const dadosMapeados = [];
 
@@ -104,7 +106,7 @@ const AdminAdd = () => {
   }
 
   const filtrarInativos = () => {
-    Axios.get('https://api.zyngo.com.br/admin/listarPessoas')
+    Axios.get(configs.BASE_URL+'/admin/listarPessoas')
       .then((response) => {
         const dadosMapeados2 = [];
 
@@ -127,7 +129,7 @@ const AdminAdd = () => {
     setFeedback()
     setTipoFeedback()
 
-    Axios.post('https://api.zyngo.com.br/admin/reativarUsuario', {
+    Axios.post(configs.BASE_URL+'/admin/reativarUsuario', {
       email: email
     }).then((response) => {
       if (response.data.sucesso) {
@@ -142,7 +144,7 @@ const AdminAdd = () => {
   }
 
   const atualizarDados = () => {
-    Axios.get('https://api.zyngo.com.br/admin/listarPessoas')
+    Axios.get(configs.BASE_URL+'/admin/listarPessoas')
       .then((response) => {
         setListaUsuarios(response.data.result)
       });

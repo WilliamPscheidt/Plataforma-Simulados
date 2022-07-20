@@ -3,6 +3,8 @@ import React, { useState } from 'react'
 import Axios from 'axios'
 import Alert from 'react-bootstrap/Alert'
 
+import configs from '../../Configurations/Configs.json'
+
 const AdminPerguntas = () => {
 
     const [errorMessage, setErrorMessage] = React.useState("");
@@ -55,7 +57,7 @@ const AdminPerguntas = () => {
             return
         }
 
-        Axios.post('https://api.zyngo.com.br/admin/inserirQuestao', {
+        Axios.post(configs.BASE_URL+'/admin/inserirQuestao', {
             pergunta: body.pergunta,
             opcaoA: body.opcaoA,
             opcaoB: body.opcaoB,

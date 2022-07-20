@@ -8,6 +8,8 @@ import Lottie from 'react-lottie-player'
 import lottieJson from '../../Assets/Animations/loading.json'
 import SemResultado from '../../Assets/Animations/sem-resultado.json'
 
+import configs from '../../Configurations/Configs.json'
+
 import $ from 'jquery'
 
 const DashboardStatsTop = () => {
@@ -19,7 +21,7 @@ const DashboardStatsTop = () => {
         $('.loader').attr('class', 'd-none')
         $('.feedback').attr('className', 'feedback d-block')
 
-        Axios.post('https://api.zyngo.com.br/dashboard/dashTop', {
+        Axios.post(configs.BASE_URL+'/dashboard/dashTop', {
             email: localStorage.getItem("user")
         }).then((response) => {
             if (response.data.evolucao.length > 0 && response.data.resultado.length > 0) {

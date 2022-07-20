@@ -11,6 +11,8 @@ import Alert from 'react-bootstrap/Alert'
 import Lottie from 'react-lottie-player'
 import lottieJson from '../../Assets/Animations/enviado.json'
 
+import configs from '../../Configurations/Configs.json'
+
 const Contato = () => {
   const [mostrarContato, setContato] = useState(false);
 
@@ -33,7 +35,7 @@ const Contato = () => {
     setMensagemErro()
     setExibirAnimacao(false)
 
-    Axios.post('https://api.zyngo.com.br/mailer/contato', {
+    Axios.post(configs.BASE_URL+'/mailer/contato', {
       email: $('.input-contatoA').val(),
       conteudo: $('.input-contato').val()
     }).then((response) => {

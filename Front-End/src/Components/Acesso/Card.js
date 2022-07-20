@@ -10,6 +10,8 @@ import { useNavigate } from 'react-router-dom';
 
 import Voltar from "../Voltar/Voltar"
 
+import configs from '../../Configurations/Configs.json'
+
 const Card = () => {
 
     const [show, setShow] = useState(false);
@@ -44,7 +46,7 @@ const Card = () => {
 
     const onClickLogar = () => {
         setErrorMessage()
-        Axios.post('https://api.zyngo.com.br/api/login', {
+        Axios.post(configs.BASE_URL+'/api/login', {
             loginEmail: body.loginEmail,
             loginSenha: body.loginSenha,
         }).then((response) => {
@@ -77,7 +79,7 @@ const Card = () => {
             return
         }
 
-        Axios.post('https://api.zyngo.com.br/api/registro', {
+        Axios.post(configs.BASE_URL+'/api/registro', {
             registroNome: body.registroNome,
             registroSobrenome: body.registroSobrenome,
             registroEmail: body.registroEmail,
@@ -107,7 +109,7 @@ const Card = () => {
         setMensagemSucesso()
         setMensagemErro()
         console.log($('.input-esqueciminhasenha').val())
-        Axios.post('https://api.zyngo.com.br/mailer/recuperarSenha', {
+        Axios.post(configs.BASE_URL+'/mailer/recuperarSenha', {
             email: $('.input-esqueciminhasenha').val(),
         }).then((response) => {
             if (response.data.erro) {

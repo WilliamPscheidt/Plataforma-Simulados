@@ -7,6 +7,8 @@ import Alert from 'react-bootstrap/Alert'
 
 import { useNavigate } from 'react-router-dom';
 
+import configs from '../../Configurations/Configs.json'
+
 import $ from "jquery"
 
 const Profile = () => {
@@ -42,7 +44,7 @@ const Profile = () => {
   const modificarSenha = () => {
     const novaSenha = $("#novaSenhaInput").val();
     const novaSenha2 = $(".novasenha2").val();
-    Axios.post('https://api.zyngo.com.br/api/trocarSenha', {
+    Axios.post(configs.BASE_URL+'/api/trocarSenha', {
       senha1: novaSenha,
       senha2: novaSenha2,
       email: localStorage.getItem("user"),
@@ -69,7 +71,7 @@ const Profile = () => {
     setMensagemErro()
     setMensagemSucesso()
     if ($("#inputdesativar").val() === "desativar") {
-      Axios.post('https://api.zyngo.com.br/admin/desativarConta', {
+      Axios.post(configs.BASE_URL+'/admin/desativarConta', {
         email: localStorage.getItem("user")
       }).then((response) => {
         if (response.data.sucesso) {

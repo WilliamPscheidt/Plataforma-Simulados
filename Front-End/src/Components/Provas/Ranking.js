@@ -1,6 +1,8 @@
 import Axios from 'axios'
 import React, { useEffect, useState } from 'react'
 
+import configs from '../../Configurations/Configs.json'
+
 const Ranking = (props) => {
 
     const [provas, setProvas] = useState(0);
@@ -8,7 +10,7 @@ const Ranking = (props) => {
     const [posicao, setPosicao] = useState(0);
 
     useEffect(() => {
-        Axios.post('https://api.zyngo.com.br/dashboard/homeDashboard', {
+        Axios.post(configs.BASE_URL+'/dashboard/homeDashboard', {
             email: localStorage.getItem('user'),
         }).then((response) => {
             setRanking(response.data.ranking)

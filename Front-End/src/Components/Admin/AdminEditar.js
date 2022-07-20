@@ -10,6 +10,8 @@ import { Modal, Button } from 'react-bootstrap';
 
 import { Spinner } from 'react-bootstrap';
 
+import configs from '../../Configurations/Configs.json'
+
 import SVGEdit from '../../Assets/Images/edit-svgrepo-com.svg'
 import SVGRemove from '../../Assets/Images/remove-svgrepo-com.svg'
 import SVGFiltro from '../../Assets/Images/filter-svgrepo-com.svg'
@@ -40,7 +42,7 @@ const AdminEditar = () => {
         })
 
     useEffect(() => {
-        Axios.get('https://api.zyngo.com.br/admin/listarQuestoes')
+        Axios.get(configs.BASE_URL+'/admin/listarQuestoes')
             .then((response) => {
                 setElementosShow(response.data.result)
             });
@@ -69,7 +71,7 @@ const AdminEditar = () => {
     }
 
     const EditarQuestao = () => {
-        Axios.post('https://api.zyngo.com.br/admin/atualizarQuestao', {
+        Axios.post(configs.BASE_URL+'/admin/atualizarQuestao', {
             id: questaoEdicao,
             pergunta: ElementosQuestao.pergunta,
             opcaoA: ElementosQuestao.opcaoA,
@@ -87,7 +89,7 @@ const AdminEditar = () => {
     }
 
     const AtualizarLista = () => {
-        Axios.get('https://api.zyngo.com.br/admin/listarQuestoes')
+        Axios.get(configs.BASE_URL+'/admin/listarQuestoes')
             .then((response) => {
                 setElementosShow()
                 setElementosShow(response.data.result)
@@ -95,7 +97,7 @@ const AdminEditar = () => {
     }
 
     const editarQuestao = (id) => {
-        Axios.post('https://api.zyngo.com.br/admin/visualizarQuestao', {
+        Axios.post(configs.BASE_URL+'/admin/visualizarQuestao', {
             id: id
         }).then((response) => {
             setQuestao(response.data.result)
@@ -105,7 +107,7 @@ const AdminEditar = () => {
     }
 
     const excluirQuestao = (id) => {
-        Axios.post('https://api.zyngo.com.br/admin/excluirQuestoes', {
+        Axios.post(configs.BASE_URL+'/admin/excluirQuestoes', {
             id: id
         }).then((response) => {
             if (response.data.erro) {
@@ -120,7 +122,7 @@ const AdminEditar = () => {
     }
 
     const FiltrarDificuldade = (dificuldade) => {
-        Axios.get('https://api.zyngo.com.br/admin/listarQuestoes')
+        Axios.get(configs.BASE_URL+'/admin/listarQuestoes')
             .then((response) => {
                 const dificuldadesMapeadas = [];
 
