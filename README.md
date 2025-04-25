@@ -6,6 +6,8 @@
 - <a href="#layouts">Layouts (Figma/Framer)</a>
 - <a href="#deploy">Deploy</a>
 
+A
+
 # 📡 Responsáveis
 <div id="responsaveis">
 - Front-End - Auxilio no Back-End - Infraestrutura - UI/UX: William Pscheidt Polaski https://github.com/WilliamPscheidt/ <br/>
